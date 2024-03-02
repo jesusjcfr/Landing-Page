@@ -12,6 +12,12 @@ header {
 
 }
 
+.header{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
 a {
     text-decoration: none;
     color: #F9FAF8;
@@ -160,7 +166,11 @@ display: flex;
     background-color: #3882F6;
     justify-content: space-around;
     flex: 1;
+}
 
+.header-card{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .button {
@@ -169,6 +179,7 @@ display: flex;
     color: #F9FAF8;
     border-radius: 8px;
     padding: 4px 20px;
+    cursor: pointer;
 }
 
 .footer{
