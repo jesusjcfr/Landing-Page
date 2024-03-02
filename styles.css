@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+
+background-color: #1F2937;
+padding: 15px 400px 100px 400px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+a:hover{
+    color: #3882F6;
+}
+
+.container-menu{
+    color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
+    gap: 14px;
+    margin-bottom: 50px;
+    
+}
+
+.logo{
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.container-modal{
+    display: flex;
+    flex-wrap: wrap;
+    color: #F9FAF8;
+    width: 450px;
+    gap: 10px;
+    
+}
+
+.container-modal h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.container-modal p{
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.modal{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.image{
+    display: flex;
+    background-color: rgba(204, 201, 255, 0.473);
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+       
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 4px 16px;
+    border-radius: 8px;
+}
